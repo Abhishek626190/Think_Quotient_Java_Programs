@@ -4,8 +4,7 @@ public class Sort_Array_Ascending {
 	public static void sortArr(int a[]) {
 		int temp = 0;
 
-		// int a[]= {4,8,1,3,6,2};
-		for (int i = 0; i < a.length - 1; i++) {
+ 		for (int i = 0; i < a.length - 1; i++) {
 			for (int j = 0; j < a.length - 1 - i; j++) {
 				if (a[j] > a[j + 1]) {
 					temp = a[j];
@@ -19,7 +18,7 @@ public class Sort_Array_Ascending {
 		for (int i = 0; i < a.length; i++) {
 			System.out.print(a[i] + ",");
 		}
-		System.out.println("\nThe 2nd greatest element is :" + a[a.length - 2]);
+		//System.out.println("\nThe 2nd greatest element is :" + a[a.length - 2]);
 
 	}
 

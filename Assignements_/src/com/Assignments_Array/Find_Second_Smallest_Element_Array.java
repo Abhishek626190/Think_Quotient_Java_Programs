@@ -1,7 +1,6 @@
 package com.Assignments_Array;
 
-public class Sort_Array_Descinding {
-
+public class Find_Second_Smallest_Element_Array {
 	public static void sortArr(int a[]) {
 		int temp = 0;
  		for (int i = 0; i < a.length - 1; i++) {
@@ -14,11 +13,11 @@ public class Sort_Array_Descinding {
 				}
 			}
 		}
-		System.out.println("Array in Ascendin Order:");
-		for (int i = 0; i < a.length; i++) {
-			System.out.print(a[i] + ",");
-		}
-		//System.out.println("\nThe 2nd smallest element is :" + a[a.length - 2]);
+//		System.out.println("Array in Ascendin Order:");
+//		for (int i = 0; i < a.length; i++) {
+//			System.out.print(a[i] + ",");
+//		}
+		System.out.println("\nThe 2nd smallest element is :" + a[a.length - 2]);
 
 	}
 
@@ -26,6 +25,7 @@ public class Sort_Array_Descinding {
 		// TODO Auto-generated method stub
 		int arr[] = Sum_Array.createArray();
 		sortArr(arr);
+
 	}
 
 }
