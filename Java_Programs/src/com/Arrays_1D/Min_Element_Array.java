@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 
 public class Min_Element_Array {
 

@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 //4>print all odd numbers from array
 public class Sum_Odd_Number {
 	public static void sumOdd(int a[])

@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 //1> Print array in reverse order
 public class Print_Reverse_Array {
 	public static void reverseArray(int a[]) {

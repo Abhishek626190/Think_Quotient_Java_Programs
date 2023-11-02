@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 
 //9>find all the elements of array which are less than its avg.
 public class Less_Average_Array {

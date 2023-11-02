@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 
 // create array and access array of element
 public class Demo {

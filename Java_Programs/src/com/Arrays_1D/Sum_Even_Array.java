@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 //3> print all even numbers from array
 public class Sum_Even_Array {
 	public static void sumEven(int a[]) {

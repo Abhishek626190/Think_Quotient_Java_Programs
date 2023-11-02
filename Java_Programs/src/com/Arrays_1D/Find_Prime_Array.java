@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 //8>find all prime numbers array
 public class Find_Prime_Array {
 	public static void checkPrime(int a[]) {

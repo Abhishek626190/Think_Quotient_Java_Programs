@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 
 import java.util.Scanner;
 //7>create marks integer(out of 100)  array and find total,percentage and grade

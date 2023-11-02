@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 //10>count all negative number from array
 public class Count_Negative_Array {
 	public static void count(int a[])

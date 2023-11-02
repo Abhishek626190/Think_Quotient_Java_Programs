@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 
 public class Max_Element_Array {
 	static int max=0;

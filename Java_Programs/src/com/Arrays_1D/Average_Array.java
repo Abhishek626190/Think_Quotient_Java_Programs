@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 
 //5>find avg of array element
 public class Average_Array {

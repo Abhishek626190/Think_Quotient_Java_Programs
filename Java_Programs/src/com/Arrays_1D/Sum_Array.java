@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 
 import java.util.Scanner;
 //2> find sum of all elements of array

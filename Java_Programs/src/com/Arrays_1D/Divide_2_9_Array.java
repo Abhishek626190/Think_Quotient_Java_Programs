@@ -1,4 +1,4 @@
-package com.Arrays;
+package com.Arrays_1D;
 //6>find all the element from array which are divisible by 2 and 3
 public class Divide_2_9_Array {
 	public static void check(int a[])
