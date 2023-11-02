@@ -3,6 +3,7 @@ package com.Arrays_2D;
 public class Sum_Diagonal_Array_Element {
 	public static void sumDiagonal(int a[][]) {
 		int sum = 0;
+		System.out.println("The Sum of diagonal element from starting is:");
 		for (int i = 0; i < a.length; i++) {
 			for (int j = 0; j < a[i].length; j++) {
 				if (j == i) {
@@ -15,6 +16,8 @@ public class Sum_Diagonal_Array_Element {
 
 	public static void sumDiagonal1(int a[][]) {
 		int sum = 0;
+		System.out.println("The Sum of diagonal element from ending is:");
+
 		for (int i = 0; i < a.length; i++) {
 			for (int j = a[i].length - 1; j >= 0; j--) {
 
