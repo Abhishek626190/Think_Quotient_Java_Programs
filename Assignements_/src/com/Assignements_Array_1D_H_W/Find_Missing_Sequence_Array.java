@@ -1,4 +1,4 @@
-package com.Assignements_Array_1D_H.W;
+package com.Assignements_Array_1D_H_W;
 
 public class Find_Missing_Sequence_Array {
 	public static void find(int a[]) {
