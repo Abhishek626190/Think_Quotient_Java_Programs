@@ -4,12 +4,12 @@ public class Sum_Two_Matrix {
 	int c[][];
 
 	public int[][] sumMatrix(int a[][], int b[][]) {
+		c = new int[a.length][a[0].length];
 
 		for (int i = 0; i < a.length; i++) {
-			c = new int[a.length][a[i].length];
 			for (int j = 0; j < a[i].length; j++) {
 				c[i][j] = a[i][j] + b[i][j];
-				System.out.print(c[i][j]+" ");
+				System.out.print(c[i][j] + " ");
 			}
 			System.out.println();
 		}
@@ -25,7 +25,8 @@ public class Sum_Two_Matrix {
 			System.out.println();
 		}
 	}
-	public void printSum1( ) {
+
+	public void printSum1() {
 		for (int i = 0; i < c.length; i++) {
 			for (int j = 0; j < c[i].length; j++) {
 				System.out.print(c[i][j] + " ");
@@ -41,8 +42,8 @@ public class Sum_Two_Matrix {
 		int arr1[][] = { { 7, 8, 9 }, { 10, 11, 12 } };
 
 		int sumArr[][] = obj.sumMatrix(arr, arr1);
-		//obj.printSum(sumArr);
-		//obj.printSum1();
+//		obj.printSum(sumArr);
+//		obj.printSum1();
 
 	}
 
