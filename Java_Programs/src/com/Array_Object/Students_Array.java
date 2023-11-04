@@ -2,20 +2,20 @@ package com.Array_Object;
 
 import java.util.Arrays;
 
-public class Marks_Array {
+public class Students_Array {
 	private int rollNo;
 	private String name;
 	private double per;
 	double marks[];
 
-	Marks_Array() {
+	Students_Array() {
 		rollNo = 0;
 		name = "";
 		per = 0f;
 		marks = null;
 	}
 
-	Marks_Array(int i, String n, double a[]) {
+	Students_Array(int i, String n, double a[]) {
 		rollNo = i;
 		name = n;
 		marks = a;
@@ -34,7 +34,7 @@ public class Marks_Array {
 		return "\nRoll_Num: " + rollNo + "\nName: " + name + "\nPer:" + per + " \n" + "Marks " + Arrays.toString(marks);
 	}
 
-	public static void highestPer(Marks_Array[] a) {
+	public static void highestPer(Students_Array[] a) {
 		double p = 0.0;
 		for (int i = 0; i < a.length; i++) {
 			if (a[i].per > p) {
@@ -54,13 +54,13 @@ public class Marks_Array {
 		double marksarr3[] = { 40, 80, 60, 90, 50 };
 		double marksarr4[] = { 90, 50, 60, 70, 80 };
 
-		Marks_Array arr[] = new Marks_Array[5];
+		Students_Array arr[] = new Students_Array[5];
 
-		arr[0] = new Marks_Array(101, "A", marksarr);
-		arr[1] = new Marks_Array(102, "B", marksarr1);
-		arr[2] = new Marks_Array(103, "C", marksarr2);
-		arr[3] = new Marks_Array(104, "D", marksarr3);
-		arr[4] = new Marks_Array(105, "E", marksarr4);
+		arr[0] = new Students_Array(101, "A", marksarr);
+		arr[1] = new Students_Array(102, "B", marksarr1);
+		arr[2] = new Students_Array(103, "C", marksarr2);
+		arr[3] = new Students_Array(104, "D", marksarr3);
+		arr[4] = new Students_Array(105, "E", marksarr4);
 
 		System.out.println(Arrays.toString(arr));
 
@@ -69,3 +69,9 @@ public class Marks_Array {
 	}
 
 }
+
+ 
+
+
+
+
