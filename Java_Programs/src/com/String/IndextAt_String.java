@@ -9,7 +9,7 @@ public class IndextAt_String {
 		System.out.println(s.indexOf('i'));
 		System.out.println(s.charAt(0));
 		System.out.println(s.lastIndexOf(s));
-
+		 
 	}
 
 }

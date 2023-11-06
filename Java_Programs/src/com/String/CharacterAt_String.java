@@ -7,7 +7,7 @@ public class CharacterAt_String {
 		String s1="Abhishek";
 		for(int i=0;i<s1.length();i++)
 		{
-			System.out.print(s1.charAt(i)+",");
+			System.out.println(i+"="+s1.charAt(i));
 		}
 
 	}
