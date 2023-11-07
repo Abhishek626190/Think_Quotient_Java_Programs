@@ -4,9 +4,10 @@ public class FInd_Max_Frequency_String {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "Abhbhihbbhshbhbehk";
+		String str = "Abbbhbhihbhbhhbhshbhbehk";
 		int max = 0;
-		char ch1 = 0;
+		char ch1 =0;
+		int temp=0;
 		char ch[] = str.toCharArray();
 		for (int i = 0; i < ch.length; i++) {
 			int count = 0;
@@ -24,9 +25,11 @@ public class FInd_Max_Frequency_String {
 				}
 				if (isnotchecked) {
 					System.out.println(ch[i] + " count" + (count + 1));
+					temp=count+1;
+					
 				}
-				if (count > max) {
-					max = count ;
+				if (temp > max) {
+					max = count+1 ;
 					ch1 = ch[i];
 				}
 
