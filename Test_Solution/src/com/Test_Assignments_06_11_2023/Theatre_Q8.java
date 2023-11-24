@@ -37,6 +37,25 @@ public class Theatre_Q8 {
 		return tname;
 	}
 
+	public void printRating(Theatre_Q8 a[]) {
+		Theatre_Q8 tarr[] = new Theatre_Q8[a.length];
+		for (int i = 0; i < a.length; i++) {
+			for (int j = 0; j < a.length; j++) {
+				if (i != j) {
+					if (a[i].m.getRating() > a[j].m.getRating()) {
+						tarr[i] = a[j];
+					} else {
+						tarr[i] = a[i];
+					}
+				}
+			}
+		}
+		System.out.println("\n***********");
+		for (int i = 0; i < a.length; i++) {
+			System.out.println(a[i]);
+		}
+	}
+
 	public String toString() {
 		return "\nTheatre Id:" + tid + " Theatre Name:" + tname + m;
 	}
@@ -44,28 +63,15 @@ public class Theatre_Q8 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Movie_Q8 obj1 = new Movie_Q8(101, "M.S.D", 8.8f);
-		Movie_Q8 obj2 = new Movie_Q8(102, "DDLJ", 9.9f);
+		Movie_Q8 obj2 = new Movie_Q8(102, "DDLJ", 11.9f);
 		Movie_Q8 obj3 = new Movie_Q8(103, "PK", 10.3f);
+		Theatre_Q8 tobj = new Theatre_Q8();
 		Theatre_Q8 t[] = new Theatre_Q8[3];
 		t[0] = new Theatre_Q8(201, "A", obj1);
 		t[1] = new Theatre_Q8(202, "B", obj2);
 		t[2] = new Theatre_Q8(203, "C", obj3);
-
 		System.out.println(Arrays.toString(t));
-		int count = 0;
-		for (int i = 0; i < t.length; i++) {
-			for (int j = 0; j < t.length; j++) {
-				if (i != j) {
-					if (t[i].m.getRating() > t[j].m.getRating()) {
-						count++;
-					}
-					if (count == 2) {
-						System.out.println(t[i]);
-					}
-
-				}
-			}
-		}
+		tobj.printRating(t);
 
 	}
 

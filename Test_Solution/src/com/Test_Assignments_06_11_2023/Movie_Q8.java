@@ -1,7 +1,6 @@
 package com.Test_Assignments_06_11_2023;
 
-import java.util.Arrays;
-
+ 
 public class Movie_Q8 {
 	private int mid;
 	private String mname;
