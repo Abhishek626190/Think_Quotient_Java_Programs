@@ -1,6 +1,6 @@
 package com.String;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 public class Palindrome_Stirng {
 
