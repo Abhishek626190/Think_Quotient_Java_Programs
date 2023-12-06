@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 public class ArrayListDemo {
 
@@ -15,6 +16,7 @@ public class ArrayListDemo {
 		l1.add(14);
 		l1.add(15);
 		l1.add(16);
+		//ListIterator<Integer>itr1=l1.listIterator();
 		Object arr[] = l1.toArray();
 		System.out.println(Arrays.toString(arr) + "****");
 		Integer arr1[] = l1.toArray(new Integer[l1.size()]);
