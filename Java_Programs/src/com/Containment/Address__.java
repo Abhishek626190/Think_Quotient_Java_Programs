@@ -43,7 +43,7 @@ public class Address__ {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Address__ obj=new Address__();
-		System.out.println(obj);
+		//System.out.println(obj);
 	}
 
 }

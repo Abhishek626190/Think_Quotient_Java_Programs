@@ -46,7 +46,7 @@ public class Account__ {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Account__ obj=new Account__();
-		System.out.println(obj);
+		//System.out.println(obj);
 		Account__ obj1=new Account__("Abhi",123456789,45654.54);
 		 obj1.setName("Abhishek");
 		System.out.println(obj1);
