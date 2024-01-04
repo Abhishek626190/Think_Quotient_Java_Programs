@@ -17,7 +17,7 @@ public class Find_Frequency_Each_Element {
 					}
 				}
 				if (isnotchecked) {
-					System.out.println(a[i] + " count" + (count + 1));
+					System.out.println(a[i] + " count " + (count + 1));
 
 				}
 			}
